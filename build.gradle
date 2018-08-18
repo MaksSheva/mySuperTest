@@ -24,6 +24,7 @@ systemProperty("driver", "chrome")
     }
 }
 
+
 task fireFoxTest(type:Test) {
     systemProperty("webdriver.gecko.driver", "drivers/geckodriver.exe")
     systemProperty("driver", "gecko")
